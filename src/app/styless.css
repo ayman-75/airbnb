@@ -1,0 +1,35 @@
+.logo-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 20px;
+  }
+  
+  .logo {
+    margin-top: 55px;
+    width: 150px;
+    height: 45px;
+  }
+  
+  
+  
+  
+  @media (max-width: 1019px) {
+    .logo-container {
+      position: relative;
+      top: unset;
+      left: unset;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    
+    .logo {
+      width: 200px;
+      height: auto;
+    }
+    
+    .container {
+      text-align: center;
+    }
+  }
+  

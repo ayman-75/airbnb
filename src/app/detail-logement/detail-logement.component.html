@@ -1,0 +1,32 @@
+
+
+  <div class="caracteristiques">
+    <div *ngIf="logement" class="container">
+      
+       <div class="logement-info">
+            <h2>{{ logement.name }}</h2>
+            <h3>{{ logement.location }}</h3>
+       </div>
+
+      <div class="img-container">
+        <img [src]="logement.picture">
+      </div>
+  
+      <div class="description">
+        <p>{{ logement.description }}</p>
+      </div>
+  
+      <div class="price">
+        <p><span class="price-amount">{{ logement.price }}</span> <span class="price-text"> € par nuit</span></p>
+      </div>
+  
+      <a class="btn" (click)="goToLogementLIst()">
+        
+        Retour
+      
+      </a>
+    </div>
+  
+    <h4 *ngIf='!logement' class="center">Aucun logement à afficher !</h4>
+  </div>
+  

@@ -1,0 +1,19 @@
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <ul class="logement-list">
+        <li class="logement-item" *ngFor="let logement of logementList">
+          <div class="logement" lgmBorderCard (click)="goToLogement(logement)">
+            <div class="logement-image">
+              <img [src]="logement.picture" alt="Logement image">
+            </div>
+            <div class="logement-details">
+              <p class="location">{{ logement.location }}</p>
+              <p class="price">{{ logement.price }} € par nuit</p>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
