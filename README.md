@@ -3,7 +3,9 @@ Création d'un mini site web en Angular qui montrent une liste d'appartement.
 En cliquant sur l'appartement nous obtenons plus de detail.
 Inspiré d'Airbnb.
 
+
 Stack : Angular,TypeScript,Css
+
 Objectif : Découverte du framwork Angular.
 
 
